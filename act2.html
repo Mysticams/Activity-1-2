@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity #2 - Table Rows and Columns</title>
+</head>
+<body style="font-family: 'Lucida Sans', Geneva, Verdana, sans-serif; 
+             background-image: url('img/flower.jpg'); 
+             background-repeat: no-repeat; 
+             background-attachment: fixed; 
+             background-size: 100% 100%; 
+             margin: 0; 
+             padding: 20px; 
+             color: rgb(0, 0, 0); 
+             text-align: center;">
+
+  <!-- Table as poster -->
+  <table style="border-collapse: collapse; margin: 0 auto; text-align: center; width: 570px; background-color: rgba(255,255,255,0.85); border: 2px solid #000;">
+    <thead>
+      <!-- Popular Anime Movies heading with image -->
+     <tr>
+  <th colspan="4" style="padding: 10px; background-color: rgba(184, 226, 250, 0.5); text-align:center;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+      <img src="img/cinema.png" alt="Cinema" style="height:60px; width:auto;">
+      <span style="font-size:1.6em; font-weight: bold;">Popular Anime Movies</span>
+    </div>
+  </th>
+</tr>
+
+      <!-- Hidden Gems & Underrated heading (plain text) -->
+      <tr>
+        <th colspan="4" style="font-size: 1.3em; padding: 6px; background-color: rgba(184, 226, 250, 0.5); border-bottom: 2px solid #000;">
+          Hidden Gems & Underrated
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Row 1 -->
+      <tr>
+        <td style="border: 2px solid #000; padding: 0;">
+          <a href="https://www.imdb.com/title/tt11958344/" target="_blank" style="text-decoration: none; color: black; display: block;">
+            <img src="img/whiskeraway.jpg" alt="A Whisker Away" style="width:120px; display:block; margin:5px auto;">
+            <div style="font-size:0.9em;">A Whisker Away</div>
+          </a>
+        </td>
+        <td style="border: 2px solid #000; padding: 0;">
+          <a href="https://www.imdb.com/title/tt5311514/" target="_blank" style="text-decoration: none; color: black; display: block;">
+            <img src="img/yourname.jpg" alt="Your Name" style="width:120px; display:block; margin:5px auto;">
+            <div style="font-size:0.9em;">Your Name</div>
+          </a>
+        </td>
+        <td style="border: 2px solid #000; padding: 0;">
+          <a href="https://www.imdb.com/title/tt7236034/" target="_blank" style="text-decoration: none; color: black; display: block;">
+            <img src="img/pancreas.jpg" alt="I Want to Eat Your Pancreas" style="width:120px; display:block; margin:5px auto;">
+            <div style="font-size:0.9em;">I Want to Eat<br>Your Pancreas</div>
+          </a>
+        </td>
+        <td style="border: 2px solid #000; padding: 0;">
+          <a href="https://www.imdb.com/title/tt16428256/" target="_blank" style="text-decoration: none; color: black; display: block;">
+            <img src="img/susume.jpg" alt="Suzume" style="width:120px; display:block; margin:5px auto;">
+            <div style="font-size:0.9em;">Suzume</div>
+          </a>
+        </td>
+      </tr>
+
+      <!-- Row 2 -->
+      <tr>
+        <td style="border: 2px solid #000; padding: 0;">
+          <a href="https://www.imdb.com/title/tt5323662/" target="_blank" style="text-decoration: none; color: black; display: block;">
+            <img src="img/voice.jpg" alt="A Silent Voice" style="width:120px; display:block; margin:5px auto;">
+            <div style="font-size:0.9em;">A Silent Voice</div>
+          </a>
+        </td>
+        <td style="border: 2px solid #000; padding: 0;">
+          <a href="https://www.imdb.com/title/tt1839494/" target="_blank" style="text-decoration: none; color: black; display: block;">
+            <img src="img/child.jpg" alt="Children Who Chase Lost Voices" style="width:120px; display:block; margin:5px auto;">
+            <div style="font-size:0.9em;">Children Who<br>Chase Lost Voices</div>
+          </a>
+        </td>
+        <td style="border: 2px solid #000; padding: 0;" colspan="2" rowspan="2">
+          <a href="https://www.imdb.com/title/tt0347618/" target="_blank" style="text-decoration: none; color: black; display: block;">
+            <img src="img/cat.jpg" alt="The Cat Returns" style="width:250px; display:block; margin:5px auto;">
+            <div style="font-size:1em; font-weight: bold; margin-top: 3px;">The Cat Returns</div>
+          </a>
+        </td>
+      </tr>
+
+      <!-- Row 3 -->
+      <tr>
+        <td style="border: 2px solid #000; padding: 0;">
+          <a href="https://www.imdb.com/title/tt0108432/" target="_blank" style="text-decoration: none; color: black; display: block;">
+            <img src="img/waves.jpg" alt="Ocean Waves" style="width:120px; display:block; margin:5px auto;">
+            <div style="font-size:0.9em;">Ocean Waves</div>
+          </a>
+        </td>
+        <td style="border: 2px solid #000; padding: 0;">
+          <a href="https://www.imdb.com/title/tt2061702/" target="_blank" style="text-decoration: none; color: black; display: block;">
+            <img src="img/forest.jpg" alt="Hotarubi no mori e" style="width:120px; display:block; margin:5px auto;">
+            <div style="font-size:0.9em;">Hotarubi no mori e</div>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
